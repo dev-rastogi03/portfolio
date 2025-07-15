@@ -1,3 +1,84 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f8fb;
+  color: #333;
+}
+
+header {
+  background-color: #0a84ff;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #0a84ff;
+}
+
+.project {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 5px solid #0a84ff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e8efff;
+  color: #555;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.intro-text {
+  text-align: center;
+}
+
+.intro-text h1 {
+  color: black;
+  margin: 20px 0;
+  font-size: 75px;
+}
+
+.intro-text p {
+  color: #333;
+  font-size: 18px;
+}
+
+
+
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
